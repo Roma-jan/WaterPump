@@ -1,0 +1,368 @@
+/* 1440 | 1280 | 1024 | 992 | 768 | 576 */
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0px auto;
+    width: 100%;
+}
+
+.header {
+    margin-bottom: 39px;
+    background: #F7FBFF;
+    padding: 25px 0;
+    box-shadow: 2px 4px 15px 2px #C6E9FF;
+    box-shadow: 1px 1px 2px 0px #80FFFF80;
+    border-radius: 0px 0px 30px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.header-text {
+    font-family: DniproCity;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #78B1F4;
+}
+
+.announcement {
+    position: relative;
+    flex: 1 1 0;
+}
+
+.announcement-content--wrapper {
+    padding: 0 25px;
+}
+
+.announcement-content {
+    margin-bottom: 100px;
+    padding: 90px 40px;
+    position: relative;
+    background-image: url('../img/Rectangle738.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 40px;
+}
+
+.announcement-box {
+    position: relative;
+    padding: 35px 45px;
+    border-radius: 20px;
+    background: rgba(213, 239, 255, 0.85);
+    backdrop-filter: blur(6px);
+    max-width: 350px;
+}
+
+.announcement-title, 
+.announcement-text {
+    margin-bottom: 20px;
+    color: #10202E;
+    font-family: DniproCity;
+    font-style: normal;
+}
+
+.announcement-title {
+    font-size: 33px;
+    font-weight: 500;
+}
+
+.announcement-text {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.services {
+    margin-bottom: 80px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    place-items: center;
+    gap:20px;
+    padding: 0 25px;
+}
+
+.services-box {
+    display: flex;
+    padding: 20px 10px;
+    border-radius: 30px;
+    background: #FDFEFF;
+    box-shadow: 2px 4px 15px 2px #C6DDFF;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.services-text-1, 
+.services-text-2,
+.services-text-3 {
+    font-family: DniproCity;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24.5px;
+}
+
+.services-text-1 {
+    color: #4C7CC3;
+}
+
+.services-text-2,
+.services-text-3 {
+    color: #10202E;
+}
+
+.about {
+    margin-bottom: 100px;
+    padding: 0 25px;
+}
+
+.about-servicse {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.about-text {
+    color: #10202E;
+    font-family: DniproCity;
+    font-size: 47px;
+    font-weight: 700;
+    line-height: 24.5px;
+    letter-spacing: 0.47px;
+}
+
+.about-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 20px;
+}
+
+.about-box {
+    width: 100%;
+    border-radius: 30px;
+    background: #FDFEFF;
+    box-shadow: 2px 4px 15px 2px #C6DDFF;
+}
+.about-box--container {
+    padding: 30px;
+}
+
+.about-title-2,
+.about-text-2,
+.about-text-list,
+.about-text-line-l,
+.about-text-line-lr {
+    color: #10202E;
+    font-family: DniproCity;
+    font-style: normal;
+    
+}
+
+.about-title-2 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 24.5px;
+    letter-spacing: 0.47px;
+    margin-bottom: 20px;
+}
+
+.about-text-2,
+.about-text-list {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.33px;
+}
+
+.about-text-2 {
+    max-width: 450px;
+    margin-bottom: 20px;
+}
+
+.list-item {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    padding-bottom: 20px;
+}
+
+.about-text-list {
+    list-style: initial;
+}
+
+.about-text-line-l,
+.about-text-line-lr {
+    margin-left: 6px;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.33px;
+}
+
+.about-text-line-lr {
+    margin-right: 6px;
+    text-decoration-line: underline;
+}
+
+.FAQ {
+    margin-top: 10px;
+    padding: 0 25px;
+}
+
+.FAQ-title {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    gap: 20px;
+}
+
+.FAQ-title-text {
+    color: #10202E;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 28.5px;
+    letter-spacing: 0.5px;
+}
+
+.FAQ-badge {
+    width: 48px;
+    height: 48px;
+    transform: rotate(12.075deg);
+    color: #78B1F4;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 51px;
+    border: 2px solid #78B1F4;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.FAQ-q {
+    position: relative;
+    padding: 35px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    gap: 20px;
+    border-radius: 30px;
+    background: #FDFEFF;
+    box-shadow: 2px 4px 15px 2px #C6E9FF;
+}
+
+.FAQ-q-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.FAQ-q-text {
+    color: #10202E;
+    font-size: 28px;
+    font-weight: 500;
+}
+.FAQ-a {
+    color: #404040;
+    font-kerning: none;
+    display: none;
+    font-family: DniproCity;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.contacts {
+    padding: 60px 25px;
+}
+
+.cont-title {
+    color: #10202E;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 49px;
+    margin-bottom: 30px;
+}
+
+.cont-list {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    max-width: 550px;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.cont-icon {
+    text-align: center;
+    align-content: center;
+    width: 30px;
+    height: 30px;
+}
+
+.cont-item, 
+.cont-link, 
+.cont-time {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+}
+
+.cont-link, 
+.cont-time {
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.footer {
+    background: #78B1F4;
+    width: 100%;
+    padding:20px 0;
+   
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.wrapper-text {
+    color: #FFF;
+    font-family: DniproCity;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28.5px;
+    letter-spacing: 0.24px;
+}
+
+.open {
+    display: block;
+}
