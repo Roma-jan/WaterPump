@@ -283,14 +283,20 @@ html, body {
     font-size: 28px;
     font-weight: 500;
 }
+
+.FAQ-arrow {
+    transition: transform 0.3s ease;
+}
+
 .FAQ-a {
     color: #404040;
     font-kerning: none;
     display: none;
     font-family: DniproCity;
-    font-size: 32px;
+    font-size: 25px;
     font-style: normal;
     font-weight: 400;
+    padding-top: 35px;
 }
 
 .contacts {

@@ -109,7 +109,8 @@
         height: 7px;
     }
     .FAQ-a {
-        font-size: 19.2px;
+        font-size: 15px;
+        padding-top: 21px;
     }
     .FAQ-badge {
         width: 28.8px;
@@ -238,6 +239,10 @@
     }
     .FAQ-q-text {
         font-size: 11.2px;
+    }
+    .FAQ-a {
+        font-size: 10px;
+        padding-top: 14px;
     }
     .FAQ-badge {
         width: 20.2px;
