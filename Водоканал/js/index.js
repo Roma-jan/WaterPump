@@ -6,8 +6,8 @@ document.addEventListener('DOMContentLoaded', () => {
             const answer = target.nextElementSibling;
             const arrow = target.querySelector('.FAQ-arrow');
             if (answer) {
-                answer.classList.toggle('active');
-                if (answer.classList.contains('active')) {
+                answer.classList.toggle('open');
+                if (answer.classList.contains('open')) {
                     answer.style.display = 'block';
                     arrow.style.transform = 'rotate(270deg)';
                 } else {
@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 // const accordionContainer = document.querySelector(".FAQ-a"); // accordion
-//
+// 
 // accordionContainer.addEventListener('click', event => { // Step 2
 //     if (event.target.className === 'FAQ-q') { // Step 3
 //         console.log('Click!');

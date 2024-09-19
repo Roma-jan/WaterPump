@@ -1,25 +1,26 @@
+/* 1440 | 1280 | 1024 | 992 | 768 | 576 */
+
 @media screen and (max-width:1280px) {
-    .header-text {
-        font-size: 36px;
-    }
     .header-symbol {
         height: 50px;
         width: 40px;
     }
+    .header-text {
+        font-size: 36px;
+    }
 }
 
 @media screen and (max-width:992px) {
-    .header-text {
-        font-size: 27px;
-    }
     .header-symbol {
         height: 40px;
         width: 30px;
     }
+    .header-text {
+        font-size: 27px;
+    }
     .announcement-content {
         margin-bottom: 60px;
     }
-    
     .about-2 {
         flex-direction: column;
         gap: 20px;
@@ -27,137 +28,8 @@
 }
 
 @media screen and (max-width:768px) {
-    .announcement-content {
-        margin-bottom: 50px;
-        padding: 85px 64px;
-    }
-    .services {
-        margin-bottom: 48px;
-        gap: 12px;
-    }
-    .services-box {
-        padding: 12px 6px;
-        border-radius: 18px;
-        gap: 12px;
-    }
-    .services-image {
-        width: 33px;
-        height: 33px;
-    }
-    .services-text-1,
-    .services-text-2,
-    .services-text-3 {
-        font-size: 16.8px;
-        line-height: 14.7px;
-    }
-    .about {
-        margin-bottom: 60px;
-    }
-    .about-servicse {
-        gap: 18px;
-        margin-bottom: 30px;
-    }
-    .about-text {
-        font-size: 28.2px;
-        line-height: 14.7px;
-    }
-    .about-image {
-        width: 22.8px;
-        height: 22.8px;
-    }
-    .about-title-2 {
-        font-size: 19.2px;
-        line-height: 14.7px;
-    }
-    .about-title-2,
-    .about-text-2 {
-        margin-bottom: 12px;
-    }
-    .about-text-2,
-    .about-text-list {
-        font-size: 14.4px;
-        line-height: 19.2px;
-    }
-    .list-item {
-        margin-left: 30px;
-        padding-bottom: 12px;
-    }
-    .about-text-line-l,
-    .about-text-line-lr {
-        font-size: 18px;
-        line-height: 19.2px;
-    }
-    .FAQ-title {
-        margin-bottom: 30px;
-        gap: 12px;
-    }
-    .FAQ-q {
-        padding: 21px;
-        margin-bottom: 24px;
-        gap: 12px;
-        border-radius: 18px;
-    }
-    .FAQ-title-text {
-        font-size: 21.6px;
-        line-height: 17.1px;
-    }
-    .FAQ-q-text {
-        font-size: 16.8px;
-    }
-    .FAQ-arrow {
-        width: 8px;
-        height: 7px;
-    }
-    .FAQ-a {
-        font-size: 15px;
-        padding-top: 21px;
-    }
-    .FAQ-badge {
-        width: 28.8px;
-        height: 28.8px;
-        font-size: 21px;
-        line-height: 30.6px;
-    }
-    .contacts {
-        padding: 36px 0;
-    }
-    .cont-title {
-        font-size: 21.6px;
-        line-height: 29.4px;
-        margin-bottom: 18px;
-    }
-    .cont-list {
-        max-width: 330px;
-        gap: 12px;
-    }
-    .cont-link,
-    .cont-time {
-        font-size: 18px;
-    }
-    .footer-content {
-        gap: 12px;
-    }
-    .footer-image {
-        width: 37.2px;
-        height: 37.2px;
-    }
-    .announcement-box {
-        padding: 21px 27px;
-        max-width: 210px;
-    }
-    .announcement-title {
-        font-size: 19.8px;
-        margin-bottom: 12px;
-    }
-    .announcement-text {
-        font-size: 15px;
-        margin-bottom: 12px;
-    }
-}
-
-@media screen and (max-width:576px) {
     .header {
-        margin-bottom: 19.5px;
+        margin-bottom: 20px;
         padding: 12.5px 0;
         border-radius: 0px 0px 15px 15px;
         gap: 10px;
@@ -167,134 +39,143 @@
         height: 20px;
     }
     .header-text {
-        font-size: 16px;
+        font-size: 20px;
     }
     .announcement-content {
-        padding: 80px 52px;
+        margin-bottom: 50px;
+        padding: 85px 64px;
+    }
+    .announcement-box {
+        padding: 17.5px 22.5px;
+        max-width: 175px;
+    }
+    .announcement-title {
+        font-size: 16.5px;
+    }
+    .announcement-text {
+        font-size: 12.5px;
     }
     .services {
-        margin-bottom: 32px;
-        display: grid;
-        grid-template-columns: repeat(1, minmax(0, 1fr));
+        margin-bottom: 40px;
         gap: 10px;
     }
     .services-box {
-        padding: 8px 4px;
-        border-radius: 12px;
-        gap: 8px;
+        padding: 10px 5px;
+        border-radius: 15px;
+        gap: 10px;
     }
     .services-image {
         width: 22px;
         height: 22px;
     }
-    .services-text-1,
-    .services-text-2,
-    .services-text-3 {
-        font-size: 11.2px;
-        line-height: 9.8px;
+    .services-text {
+        font-size: 14px;
+        line-height: 14.75px;
     }
     .about {
-        margin-bottom: 40px;
+        margin-bottom: 55px;
     }
     .about-servicse {
-        gap: 12px;
-        margin-bottom: 20px;
+        gap: 15px;
+        margin-bottom: 25px;
     }
     .about-text {
-        font-size: 18.8px;
-        line-height: 9.8px;
+        font-size: 23.5px;
+        line-height: 12.75px;
     }
     .about-image {
-        width: 15.2px;
-        height: 15.2px;
+        width: 19px;
+        height: 19px;
     }
-   
+    .about-title-2 {
+        font-size: 16px;
+        line-height: 12.5px;
+    }
+    .announcement-title, 
+    .announcement-text,
+    .about-title-2,
     .about-text-2,
-    .about-text-list {
-        font-size: 14.4px;
-        line-height: 19.2px;
-    }
     .list-item {
-        margin-left: 30px;
-        padding-bottom: 12px;
+        margin-bottom: 10px;
     }
+    .about-text-2,
+    .about-text-list,
     .about-text-line-l,
     .about-text-line-lr {
         font-size: 12px;
-        line-height: 12.8px;
+        line-height: 16px;
+    }
+    .list-item {
+        margin-left: 25px;
     }
     .FAQ-title {
-        margin-bottom: 20px;
-        gap: 8px;
-    }
-    .FAQ-q {
-        padding: 14px;
-        margin-bottom: 16px;
-        gap: 8px;
-        border-radius: 12px;
+        margin-bottom: 25px;
+        gap: 10px;
     }
     .FAQ-title-text {
-        font-size: 14.4px;
-        line-height: 11.4px;
-    }
-    .FAQ-q-text {
-        font-size: 11.2px;
-    }
-    .FAQ-a {
-        font-size: 10px;
-        padding-top: 14px;
+        font-size: 18px;
+        line-height: 14.75px;
     }
     .FAQ-badge {
-        width: 20.2px;
-        height: 20.2px;
+        width: 24px;
+        height: 24px;
+        font-size: 17.5px;
+        line-height: 25.5px;
+    }
+    .FAQ-q {
+        padding: 17.5px;
+        margin-bottom: 20px;
+        gap: 10px;
+        border-radius: 15px;
+    }
+    .FAQ-q-text {
         font-size: 14px;
-        line-height: 20.4px;
+    }
+    .FAQ-arrow {
+        width: 8px;
+        height: 7px;
+    }
+    .FAQ-a {
+        font-size: 12px;
+        padding-top: 17.5px;
     }
     .contacts {
-        padding: 24px 0;
+        margin: 30px 0;
     }
     .cont-title {
-        font-size: 14.4px;
-        line-height: 19.6px;
-        margin-bottom: 12px;
+        font-size: 18px;
+        line-height: 24.5px;
+        margin-bottom: 15px;
     }
     .cont-list {
-        max-width: 220px;
-        gap: 8px;
+        max-width: 275px;
+        gap: 10px;
+    }
+    .cont-item, 
+    .cont-link, 
+    .cont-time {
+        gap: 10px;
+    }
+    .cont-link,
+    .cont-time {
+        font-size: 15px;
     }
     .cont-icon {
         width: 15px;
         height: 15px;
     }
-    .cont-link,
-    .cont-time {
-        font-size: 12px;
-        gap: 10px;
-    }
-    .announcement-box {
-        padding: 14px 18px;
-        max-width: 140px;
-    }
-    .announcement-title {
-        font-size: 13.2px;
-        margin-bottom: 8px;
-    }
-    .announcement-text {
-        font-size: 10px;
-        margin-bottom: 8px;
-    }
     .footer {
         padding: 10px 0;
     }
     .footer-content {
-        gap: 12px;
+        gap: 10px;
     }
     .footer-image {
-        width: 24.8px;
-        height: 24.8px;
+        width: 31px;
+        height: 31px;
     }
-    .wrapper-text {
+    .footer-text {
         font-size: 12px;
-        line-height: 14px;
+        line-height: 14.75px;
     }
 }
