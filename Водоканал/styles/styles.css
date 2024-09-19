@@ -9,6 +9,10 @@ html, body {
     margin: 0;
 }
 
+.gap {
+    gap: 20px;
+}
+
 .header {
     margin-bottom: 40px;
     background: #F7FBFF;
@@ -19,7 +23,6 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
 }
 
 .header-text {
@@ -72,7 +75,6 @@ html, body {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
     place-items: center;
-    gap: 20px;
     margin-bottom: 80px;
 }
 
@@ -84,7 +86,6 @@ html, body {
     box-shadow: 2px 4px 15px 2px #C6DDFF;
     align-items: center;
     justify-content: center;
-    gap: 20px;
     width: 100%;
 }
 
@@ -102,6 +103,7 @@ html, body {
 }
 
 .about {
+    display: none;
     margin-bottom: 110px;
 }
 
@@ -126,7 +128,6 @@ html, body {
     display: flex;
     justify-content: space-between;
     align-items: stretch;
-    gap: 20px;
 }
 
 .about-box {
@@ -198,7 +199,6 @@ html, body {
     justify-content: center;
     align-items: center;
     margin-bottom: 50px;
-    gap: 20px;
 }
 
 .FAQ-title-text {
@@ -225,12 +225,8 @@ html, body {
 }
 
 .FAQ-q {
-    position: relative;
     padding: 35px;
-    justify-content: space-between;
-    align-items: center;
     margin-bottom: 40px;
-    gap: 20px;
     border-radius: 30px;
     background: #FDFEFF;
     box-shadow: 2px 4px 15px 2px #C6E9FF;
@@ -283,7 +279,6 @@ html, body {
     flex-direction: column;
     max-width: 550px;
     margin: 0 auto;
-    gap: 20px;
 }
 
 .cont-icon {
@@ -299,7 +294,6 @@ html, body {
     display: flex;
     justify-content: start;
     align-items: center;
-    gap: 20px;
 }
 
 .cont-link, 
@@ -315,7 +309,6 @@ html, body {
     justify-content: center;
     align-items: center;
     padding: 20px 0;
-    gap: 20px;
 }
 
 .footer-text {

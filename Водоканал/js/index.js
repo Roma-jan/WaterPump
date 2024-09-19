@@ -1,3 +1,25 @@
+document.addEventListener('DOMContentLoaded', function() {
+    const buttons = document.querySelectorAll('.services-box');
+    const aboutBlocks = document.querySelectorAll('.about');
+
+    buttons.forEach(button => {
+        button.addEventListener('click', () => {
+            const serviceText = button.querySelector('.services-text').textContent.trim();
+
+            aboutBlocks.forEach(block => {
+                block.style.display = 'none';
+                if (block.querySelector('.about-text').textContent.trim() === serviceText) {
+                    block.style.display = 'block'; 
+                }
+            });
+            buttons.forEach(btn => {
+                btn.querySelector('.services-text').style.color = '#10202E';
+            });
+            button.querySelector('.services-text').style.color = '#4C7CC3';
+        });
+    });
+});
+
 document.addEventListener('DOMContentLoaded', () => {
     const accordion = document.getElementById('accordion');
     accordion.addEventListener('click', (event) => {
@@ -18,19 +40,3 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 });
-
-// const accordionContainer = document.querySelector(".FAQ-a"); // accordion
-// 
-// accordionContainer.addEventListener('click', event => { // Step 2
-//     if (event.target.className === 'FAQ-q') { // Step 3
-//         console.log('Click!');
-//         faqAnswer.classList.toggle("open");
-//     }
-// });
-
-// const faqButton = document.querySelector(".FAQ-q");
-// const faqAnswer = document.querySelector(".FAQ-a");
-//
-// faqButton.addEventListener("click", () => {
-//     faqAnswer.classList.toggle("open");
-// });

@@ -32,7 +32,6 @@
         margin-bottom: 20px;
         padding: 12.5px 0;
         border-radius: 0px 0px 15px 15px;
-        gap: 10px;
     }
     .header-symbol {
         width: 15px;
@@ -57,12 +56,10 @@
     }
     .services {
         margin-bottom: 40px;
-        gap: 10px;
     }
     .services-box {
         padding: 10px 5px;
         border-radius: 15px;
-        gap: 10px;
     }
     .services-image {
         width: 22px;
@@ -110,7 +107,6 @@
     }
     .FAQ-title {
         margin-bottom: 25px;
-        gap: 10px;
     }
     .FAQ-title-text {
         font-size: 18px;
@@ -125,7 +121,6 @@
     .FAQ-q {
         padding: 17.5px;
         margin-bottom: 20px;
-        gap: 10px;
         border-radius: 15px;
     }
     .FAQ-q-text {
@@ -149,12 +144,6 @@
     }
     .cont-list {
         max-width: 275px;
-        gap: 10px;
-    }
-    .cont-item, 
-    .cont-link, 
-    .cont-time {
-        gap: 10px;
     }
     .cont-link,
     .cont-time {
@@ -167,9 +156,6 @@
     .footer {
         padding: 10px 0;
     }
-    .footer-content {
-        gap: 10px;
-    }
     .footer-image {
         width: 31px;
         height: 31px;
@@ -177,5 +163,8 @@
     .footer-text {
         font-size: 12px;
         line-height: 14.75px;
+    }
+    .gap {
+        gap: 10px;
     }
 }
