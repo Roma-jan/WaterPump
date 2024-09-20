@@ -1,3 +1,21 @@
+@font-face {
+    font-family: 'DniproCity';
+    src: url('../font/DNIPROCITY-REGULAR.OTF') format('opentype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'DniproCity';
+    src: url('../font/DNIPROCITY-MEDIUM.OTF') format('opentype');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'DniproCity';
+    src: url('../font/DNIPROCITY-BOLD.OTF') format('opentype');
+    font-weight: 700;
+}
+
 html, body {
     height: 100%;
     width: 100%;
@@ -7,6 +25,9 @@ html, body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    color: #10202E;
+    font-family: 'DniproCity';
+    font-style: normal;
 }
 
 .gap {
@@ -26,17 +47,18 @@ html, body {
 }
 
 .header-text {
-    font-family: DniproCity;
     font-size: 64px;
     font-weight: 700;
     line-height: 100%;
     letter-spacing: 0.01em;
     text-align: center;
+}
+
+.map {
     color: #78B1F4;
 }
 
 .main {
-    max-width: 1440px;
     flex: 1 1 0;
     padding: 0 25px;
 }
@@ -90,10 +112,7 @@ html, body {
 }
 
 .services-text {
-    font-family: DniproCity;
     font-size: 28px;
-    font-style: normal;
-    color: #10202E;
     font-weight: 500;
     line-height: 24.5px;
 }
@@ -107,6 +126,10 @@ html, body {
     margin-bottom: 110px;
 }
 
+.block {
+    display: block;
+}
+
 .about-servicse {
     display: flex;
     align-items: center;
@@ -116,8 +139,6 @@ html, body {
 }
 
 .about-text {
-    color: #10202E;
-    font-family: DniproCity;
     font-size: 47px;
     font-weight: 700;
     line-height: 24.5px;
@@ -137,15 +158,9 @@ html, body {
     box-shadow: 2px 4px 15px 2px #C6DDFF;
 }
 
-.announcement-title, 
-.announcement-text,
-.about-title-2,
-.about-text-2,
-.about-text-list,
-.about-text-line-l,
-.about-text-line-lr {
+.services-text {
     color: #10202E;
-    font-family: DniproCity;
+    font-family: 'DniproCity';
     font-style: normal;
 }
 
@@ -202,7 +217,6 @@ html, body {
 }
 
 .FAQ-title-text {
-    color: #10202E;
     font-size: 36px;
     font-weight: 700;
     line-height: 28.5px;
@@ -239,7 +253,6 @@ html, body {
 }
 
 .FAQ-q-text {
-    color: #10202E;
     font-size: 28px;
     font-weight: 500;
 }
@@ -252,7 +265,7 @@ html, body {
     color: #404040;
     font-kerning: none;
     display: none;
-    font-family: DniproCity;
+    font-family: 'DniproCity';
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -264,7 +277,6 @@ html, body {
 }
 
 .cont-title {
-    color: #10202E;
     text-align: center;
     font-size: 36px;
     font-weight: 700;
@@ -313,7 +325,7 @@ html, body {
 
 .footer-text {
     color: #FFF;
-    font-family: DniproCity;
+    font-family: 'DniproCity';
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
