@@ -22,16 +22,12 @@ html, body {
 }
 
 .body {
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-    color: #10202E;
     font-family: 'DniproCity';
-    font-style: normal;
 }
 
-.gap {
-    gap: 20px;
+.main {
+    flex: 1 1 0;
+    padding: 0 25px;
 }
 
 .header {
@@ -39,11 +35,7 @@ html, body {
     background: #F7FBFF;
     padding: 25px 0;
     box-shadow: 2px 4px 15px 2px #C6E9FF;
-    box-shadow: 1px 1px 2px 0px #80FFFF80;
     border-radius: 0px 0px 30px 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .header-text {
@@ -52,21 +44,12 @@ html, body {
     line-height: 100%;
     letter-spacing: 0.01em;
     text-align: center;
-}
-
-.map {
     color: #78B1F4;
 }
 
-.main {
-    flex: 1 1 0;
-    padding: 0 25px;
-}
-
-.announcement-content {
+.announcement {
     margin-bottom: 100px;
     padding: 90px 40px;
-    position: relative;
     background-image: url('../img/Rectangle738.png');
     background-repeat: no-repeat;
     background-position: center;
@@ -75,7 +58,6 @@ html, body {
 }
 
 .announcement-box {
-    position: relative;
     padding: 35px 45px;
     border-radius: 20px;
     background: rgba(213, 239, 255, 0.85);
@@ -95,30 +77,25 @@ html, body {
 
 .services {
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
     place-items: center;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     margin-bottom: 80px;
 }
 
 .services-box {
-    display: flex;
-    padding: 20px 10px;
+    width: 100%;
+    padding: 20px;
     border-radius: 30px;
     background: #FDFEFF;
     box-shadow: 2px 4px 15px 2px #C6DDFF;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
 }
 
 .services-text {
+    font-family: 'DniproCity';
+    font-style: normal;
     font-size: 28px;
     font-weight: 500;
     line-height: 24.5px;
-}
-
-.slc {
-    color: #4C7CC3;
 }
 
 .about {
@@ -126,14 +103,7 @@ html, body {
     margin-bottom: 110px;
 }
 
-.block {
-    display: block;
-}
-
 .about-servicse {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     gap: 30px;
     margin-bottom: 50px;
 }
@@ -156,20 +126,6 @@ html, body {
     border-radius: 30px;
     background: #FDFEFF;
     box-shadow: 2px 4px 15px 2px #C6DDFF;
-}
-
-.services-text {
-    color: #10202E;
-    font-family: 'DniproCity';
-    font-style: normal;
-}
-
-.announcement-title, 
-.announcement-text,
-.about-title-2,
-.about-text-2,
-.list-item {
-    margin-bottom: 20px;
 }
 
 .about-title-2 {
@@ -209,10 +165,6 @@ html, body {
 }
 
 .FAQ-title {
-    display: flex;
-    position: relative;
-    justify-content: center;
-    align-items: center;
     margin-bottom: 50px;
 }
 
@@ -233,9 +185,6 @@ html, body {
     line-height: 51px;
     border: 2px solid #78B1F4;
     border-radius: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .FAQ-q {
@@ -265,9 +214,7 @@ html, body {
     color: #404040;
     font-kerning: none;
     display: none;
-    font-family: 'DniproCity';
     font-size: 24px;
-    font-style: normal;
     font-weight: 400;
     padding-top: 35px;
 }
@@ -277,7 +224,6 @@ html, body {
 }
 
 .cont-title {
-    text-align: center;
     font-size: 36px;
     font-weight: 700;
     line-height: 49px;
@@ -289,8 +235,8 @@ html, body {
     justify-content: start;
     align-items: start;
     flex-direction: column;
-    max-width: 550px;
     margin: 0 auto;
+    max-width: 550px;
 }
 
 .cont-icon {
@@ -300,16 +246,7 @@ html, body {
     height: 30px;
 }
 
-.cont-item, 
-.cont-link, 
-.cont-time {
-    display: flex;
-    justify-content: start;
-    align-items: center;
-}
-
-.cont-link, 
-.cont-time {
+.cont-link {
     text-decoration: none;
     font-size: 30px;
     font-weight: 500;
@@ -317,20 +254,29 @@ html, body {
 
 .footer {
     background: #78B1F4;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     padding: 20px 0;
 }
 
 .footer-text {
     color: #FFF;
-    font-family: 'DniproCity';
     font-size: 24px;
-    font-style: normal;
     font-weight: 400;
     line-height: 28.5px;
     letter-spacing: 0.24px;
+}
+
+.m-b {
+    margin-bottom: 20px;
+}
+
+.gap {
+    gap: 20px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .open {

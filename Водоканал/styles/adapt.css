@@ -16,12 +16,8 @@
     .header-text {
         font-size: 27px;
     }
-    .announcement-content {
-        margin-bottom: 60px;
-    }
     .about-2 {
         flex-direction: column;
-        gap: 20px;
     }
 }
 
@@ -38,7 +34,7 @@
     .header-text {
         font-size: 20px;
     }
-    .announcement-content {
+    .announcement {
         margin-bottom: 50px;
         padding: 85px 64px;
     }
@@ -54,9 +50,10 @@
     }
     .services {
         margin-bottom: 40px;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
     }
     .services-box {
-        padding: 10px 5px;
+        padding: 10px;
         border-radius: 15px;
     }
     .services-image {
@@ -85,13 +82,6 @@
     .about-title-2 {
         font-size: 16px;
         line-height: 12.5px;
-    }
-    .announcement-title, 
-    .announcement-text,
-    .about-title-2,
-    .about-text-2,
-    .list-item {
-        margin-bottom: 10px;
     }
     .about-text-2,
     .about-text-list,
@@ -143,8 +133,7 @@
     .cont-list {
         max-width: 275px;
     }
-    .cont-link,
-    .cont-time {
+    .cont-link {
         font-size: 15px;
     }
     .cont-icon {
@@ -161,6 +150,9 @@
     .footer-text {
         font-size: 12px;
         line-height: 14.75px;
+    }
+    .m-b {
+        margin-bottom: 10px;
     }
     .gap {
         gap: 10px;
