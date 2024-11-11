@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 answer.classList.toggle('open');
                 if (answer.classList.contains('open')) {
                     answer.style.display = 'block';
-                    arrow.style.transform = 'rotate(270deg)';
+                    arrow.style.transform = 'rotate(-90deg)';
                 } else {
                     answer.style.display = 'none';
                     arrow.style.transform = 'rotate(0deg)';
