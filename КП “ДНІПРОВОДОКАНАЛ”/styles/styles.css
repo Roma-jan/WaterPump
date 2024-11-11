@@ -23,10 +23,10 @@ html, body {
 
 .body {
     font-family: 'DniproCity';
+    min-width: min-content;
 }
 
 .main {
-    flex: 1 1 0;
     padding: 0 25px;
 }
 
@@ -117,11 +117,12 @@ html, body {
 
 .about-2 {
     display: flex;
-    justify-content: space-between;
+    justify-content: inherit;
     align-items: stretch;
 }
 
 .about-box {
+    width: 100%;
     padding: 30px;
     border-radius: 30px;
     background: #FDFEFF;
@@ -236,7 +237,7 @@ html, body {
     align-items: start;
     flex-direction: column;
     margin: 0 auto;
-    max-width: 550px;
+    max-width: 534px;
 }
 
 .cont-icon {
