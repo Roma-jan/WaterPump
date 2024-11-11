@@ -16,9 +16,6 @@
     .header-text {
         font-size: 27px;
     }
-    .about-2 {
-        flex-direction: column;
-    }
 }
 
 @media screen and (max-width:768px) {
@@ -131,7 +128,7 @@
         margin-bottom: 15px;
     }
     .cont-list {
-        max-width: 275px;
+        max-width: 267px;
     }
     .cont-link {
         font-size: 15px;
